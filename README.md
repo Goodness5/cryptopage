@@ -70,7 +70,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 ===========================================================================================================================
-
-# cryptopage
-
-# 102194e1c3528f80cc34a575fb64aed0310b9e6b
