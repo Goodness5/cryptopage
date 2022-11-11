@@ -62,14 +62,22 @@ function Home() {
             <div className='part2'>
             <div className='heading'><h1>Inspiration for your next adventure</h1></div>
             <div className='content'>
-                <img width='100%' src={first} alt="" />
-                <img width='100%' src={second} alt="" />
-                <img width='100%' src={third} alt="" />
-                <img width='100%' src={fourth} alt="" />
-                <img width='100%' src={fifth} alt="" />
-                <img width='100%' src={sixth} alt="" />
-                <img width='100%' src={seventh} alt="" />
-                <img width='100%' src={eighth} alt="" />
+                <div className='card'>
+                <img width='100%' src={first} alt="" /></div>
+                <div className='card'>
+                <img width='100%' src={seventh} alt="" /></div>
+                <div className='card'>
+                <img width='100%' src={sixth} alt="" /></div>
+                <div className='card'>
+                <img width='100%' src={fourth} alt="" /></div>
+                <div className='card'>
+                <img width='100%' src={fifth} alt="" /></div>
+                <div className='card'>
+                <img width='100%' src={eighth} alt="" /></div>
+                <div className='card'>
+                <img width='100%' src={third} alt="" /></div>
+                <div className='card'>
+                <img width='100%' src={second} alt="" /></div>
             </div>
             </div>
         </div>
