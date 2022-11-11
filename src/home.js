@@ -1,7 +1,9 @@
 import './home.css'
 function Home() {
     return(
-        <div className="container">test</div>
+        <div className="container">
+            <div className='logo'><img ></img></div>
+        </div>
     )
 }
 
