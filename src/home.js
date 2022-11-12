@@ -8,14 +8,19 @@ import img1 from './images/img1.png'
 import img2 from './images/img2.png'
 import img3 from './images/img3.png'
 import img4 from './images/img4.png'
-import first from './images/first.png'
-import second from './images/second.png'
-import third from './images/third.png'
-import fourth from './images/fourth.png'
-import fifth from './images/fifth.png'
-import sixth from './images/sixth.png'
-import seventh from './images/seventh.png'
-import eighth from './images/eighth.png'
+import first from './images/image1.png'
+import second from './images/image2.png'
+import third from './images/image3.png'
+import fourth from './images/image4.png'
+import fifth from './images/image5.png'
+import sixth from './images/image6.png'
+import seventh from './images/image7.png'
+import eighth from './images/image8.png'
+import d from './images/3d.png'
+import meta2 from './images/toplogo.svg'
+import facebook from './images/facebook.svg'
+import twitter from './images/twitter.svg'
+import instagram from './images/instagram.svg'
 function Home() {
     return(
         <div className="container">
@@ -59,28 +64,71 @@ function Home() {
                     <img src={meta} alt=''/>
                     <img src={opensea} alt=''/>
                 </div>
-            <div className='part2'>
+            
             <div className='heading'><h1>Inspiration for your next adventure</h1></div>
+            <div className='test'>
             <div className='content'>
-                <div className='card'>
-                <img width='100%' src={first} alt="" /></div>
-                <div className='card'>
-                <img width='100%' src={seventh} alt="" /></div>
-                <div className='card'>
-                <img width='100%' src={sixth} alt="" /></div>
-                <div className='card'>
-                <img width='100%' src={fourth} alt="" /></div>
-                <div className='card'>
-                <img width='100%' src={fifth} alt="" /></div>
-                <div className='card'>
-                <img width='100%' src={eighth} alt="" /></div>
-                <div className='card'>
-                <img width='100%' src={third} alt="" /></div>
-                <div className='card'>
-                <img width='100%' src={second} alt="" /></div>
+                
+                <img width='100%' src={first} alt="" />
+                
+                
+                
+                <img width='100%' src={seventh} alt="" />
+                
+                
+                
+                <img width='100%' src={sixth} alt="" />
+                
+                
+                
+                <img width='100%' src={fourth} alt="" />
+                
+                
+                
+                <img width='100%' src={fifth} alt="" />
+                
+                
+                <img width='100%' src={eighth} alt="" />
+                <img width='100%' src={third} alt="" />
+                
+                
+                
+                <img width='100%' src={second} alt="" />
+                
+                
             </div>
             </div>
-        </div>
+            
+            
+                <div className='bottom'>
+                   <div className='textb'>
+                    <h1>Metabnb NFTs</h1>
+                    <p>Discover our NFT gift cards collection. Loyal
+                    customers gets amazing gift cards which are traded as NFTs.
+                    These NFTs gives our customer access to loads of our exclusive
+                    services</p>
+                    <button className='learn'>Learn more</button>
+                </div> 
+                <div className='images2d'>
+                    <img src={d} alt=''></img>
+                    {/* <img src={img2} alt=''></img>
+                    <img src={img3} alt=''></img> */}
+                </div>
+            </div>
+            <div className='footer'>
+                <div className='first'>
+                    <img src={meta2} alt=''></img>
+                    <div className='icons'>
+                    <img src={facebook} alt=''></img>
+                    <img src={instagram} alt=''></img>
+                    <img src={twitter} alt=''></img>
+                    </div>
+                </div>
+                <div className='second'></div>
+                <div className='third'></div>
+                <div className='fourth'></div>
+            </div>
+            </div>
     )
 }
 
