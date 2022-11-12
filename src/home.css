@@ -343,19 +343,20 @@ h2>span{
 .first{
     /* background-color: yellow; */
     display: flex;
-    /* margin-top: 2%; */
+    margin-top: 5%;
     color: white;
     font-size: 1em;
     font-family: monospace;
-    height: 40vh;
+    /* height: 30vh; */
     flex-direction: column;
     width: 100%;
     justify-content: space-around;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .first>p{
-    font-size: 2em;
+    font-size: 0.9em;
     /* background-color: black; */
+    margin-top: 0;
     width: 100%;
 }
 .first>img{
