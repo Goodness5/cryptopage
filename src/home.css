@@ -4,6 +4,8 @@
     flex-direction: column;
     margin: 0 auto;
     padding: 0;
+    /* background-color: red; */
+    width: 100%;
 }
 .rent{
     display: flex;
@@ -20,6 +22,7 @@
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
+    /* background-color: purple; */
 }
 .navigation>a{
     list-style: none;
@@ -27,11 +30,14 @@
     margin-left: 3%;
     color: black;
 }
+.nav>p{
+    margin-top: 0;
+}
 .nav{
     display: flex;
     flex-direction: row;
     /* background-color: yellow; */
-    width: 30%;
+    /* width: 30%; */
 
 }
 .nav>img{
@@ -50,7 +56,6 @@
     background-repeat: repeat;
     margin-top: 0;
     margin-bottom: 0;
-    height: 5vh;
     font-weight: bold;
     font-size: larger;
     float: left;
@@ -60,9 +65,8 @@
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     border-radius: 10px;
     color: white;
-    margin-left: 5%;
+    padding: 1em;
     border: none;
-    width: 10em;
 }
 .search>button[type]{
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
@@ -70,11 +74,10 @@
     border-radius:0px 5px 5px 0px;
     width: 30%;
     color: white;
-    padding-top: 0.4em;
-    padding-bottom: 0.4em;
+    padding: 0.7em;
+    position: relative;
 }
 .search{
-    /* padding: 1em; */
     margin-top: 0;
     text-align: center;
     /* padding: 1em; */
@@ -82,7 +85,7 @@
     justify-content: center;
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 90%;
 }
 .search>input{
     width: 100%;
@@ -279,9 +282,11 @@ h2>span{
 .bottom{
     /* margin-top: 25%; */
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    margin: 0 auto;
 }
 .textb{
     /* background-color: blue; */
@@ -290,7 +295,7 @@ h2>span{
     width: 40%;
     margin-left: 7%;
     /* margin: 0 auto; */
-    font-size: 2em;
+    font-size: 1.5em;
     color: white;
 }
 .textb>h1{
@@ -308,7 +313,7 @@ h2>span{
 }
 .images2d{
     /* background-color: red; */
-    width: 70%;
+    width: 75%;
     margin-right: 10%;
 
 }
@@ -341,6 +346,10 @@ h2>span{
     color: white;
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
 }
 .first{
     /* background-color: yellow; */
@@ -467,4 +476,40 @@ a{
         flex-direction: row;
         justify-content: space-around;
     }
+}
+@media screen and (max-width:350px) {
+    .navigation>a>p{
+        font-size: 1em;
+        /* float: right; */
+        /* color: red; */
+        margin-bottom: 1%;
+        /* text-align: left; */
+        /* justify-content: left; */
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .navigation>button{
+        /* border: solid black; */
+        padding: 1em;
+
+    }
+    .navigation{
+      
+        /* width: 30%; */
+        /* margin: 0 auto; */
+    }
+    .navigation>a>li{
+        font-size: 1em;
+        float: right;
+        /* color: red; */
+        margin-bottom: 1%;
+        text-align: left;
+        justify-content: left;
+    }
+   
 }

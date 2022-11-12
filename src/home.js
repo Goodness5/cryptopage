@@ -26,13 +26,13 @@ function Home() {
         <div className="container">
         <div className='navigation'>
             <div className='nav'><img src={frame} alt='#' /><p>Metabnb</p></div>
-            <a href="/"><li>Home</li></a>
-            <a href="/"><li>Place to stay</li></a>
-            <a href="/"><li>NFTs</li></a>
-            <a href="/"><li>Community</li></a>
+            <a href="/"><p>Home</p></a>
+            <a href="/"><p>Place to stay</p></a>
+            <a href="/"><p>NFTs</p></a>
+            <a href="/"><p>Community</p></a>
+            <button className='connectwallet'> Connectwallet </button>
             
 
-            <button className='connectwallet'> Connectwallet </button>
         </div>
             <div className='rent'>
                 <div className='content1'>
@@ -45,7 +45,7 @@ function Home() {
                     </p>
                     <div className='search'>
                         <input type='search' />
-                        <button type='submit'>Search</button>
+                        <button type='submit' value='Search'>Search</button>
                     </div>
                 </div>
                 <div className='content2'>
