@@ -116,17 +116,41 @@ function Home() {
                 </div>
             </div>
             <div className='footer'>
+            <div className='two'>
                 <div className='first'>
                     <img src={meta2} alt=''></img>
                     <div className='icons'>
-                    <img src={facebook} alt=''></img>
-                    <img src={instagram} alt=''></img>
-                    <img src={twitter} alt=''></img>
+                    <a href='/'><img src={facebook} alt=''></img></a>
+                    <a href='/'><img src={instagram} alt=''></img></a>
+                    <a href='/'><img src={twitter} alt=''></img></a>
                     </div>
+                    <p>&copy; 2022 Metabnb</p>
                 </div>
-                <div className='second'></div>
-                <div className='third'></div>
-                <div className='fourth'></div>
+                <div className='second'>
+                    <h4>Community</h4>
+                    <a href='/'><p>NFTs</p></a>
+                    <a href='/'><p>Token</p></a>
+                    <a href='/'><p>Landlords</p></a>
+                    <a href='/'><p>Discord</p></a>
+                </div>
+                </div>
+                <div className='one'>
+                    <div className='third'>
+                    <h4>Places</h4>
+                    <a href='/'><p>Castle</p></a>
+                    <a href='/'><p>Farms</p></a>
+                    <a href='/'><p>Beach</p></a>
+                    <a href='/'><p>Learn more</p></a>
+                </div>
+                <div className='fourth'>
+                <h4>About us</h4>
+                <a href='/'><p>Road map</p></a>
+                    <a href='/'><p> Creators</p></a>
+                    <a href='/'><p>Career</p></a>
+                    <a href='/'><p>Contact us</p></a>
+                </div>
+                </div>
+
             </div>
             </div>
     )
