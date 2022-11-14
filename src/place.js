@@ -1,6 +1,6 @@
 // import './home.css'
 import './place.css'
-import ConnectWallet from './wallet'
+// import ConnectWallet from './wallet'
 import frame from './images/Frame.png'
 import drop from './images/drop.svg'
 import wallet1 from './images/wallet1.svg'
@@ -32,31 +32,34 @@ import location from './images/location.png'
 
 function Place(){
     function show(){
-        return(
-            <ConnectWallet />
-        )
+       document.getElementById('wal').style.display='flex'
+    }
+    function Cancel(){
+       document.getElementById('wal').style.display='none'
     }
     return(
         <div className="mycontainer">
 
 <div>
+<div id='wal'>
             <div className="walletcard">
             <div className="topic">
                 <h3>Connect Wallet</h3>
-                <img id="cancel" src={cancel} alt='' />
+                <img id="cancel" onClick={Cancel} src={cancel} alt='' />
             </div>
-            <div>
+            
                 <p>Choose your preferd wallet</p>
                 <div className="wallet">
-                    <img alt='' src={wallet1}></img>
-                    <img alt='' src={drop}></img>
+                    <img alt='' className='final' src={wallet1}></img>
+                    <img alt='' className='drop' src={drop}></img>
                 </div>
                 <div className="wallet">
-                    <img alt='' src={wallet2}></img>
-                    <img alt='' src={drop}></img>
+                    <img alt='' className='final' src={wallet2}></img>
+                    <img alt='' src={drop} className="drop"></img>
                 </div>
             </div>
             </div>
+            
         </div>
         <div className='navigation'>
             <div className='nav'><img src={frame} alt='#' /><p>Metabnb</p></div>

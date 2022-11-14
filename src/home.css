@@ -237,20 +237,20 @@ h2>span{
         grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     }
 }
-@media(min-width:100px){
+/* @media(min-width:100px){
     .content{
         padding-bottom: 100em;
         margin-bottom: 20em;
         /* background-color: yellow; */
-    }
-}
-@media(min-width:600px){
-    .content{
-        padding-bottom: 1em;
-        margin-bottom: 37em;
+    /* }
+} */
+/* @media(min-width:600px){ */
+    /* .content{ */
+        /* padding-bottom: 1em; */
+        /* margin-bottom: 37em; */
         /* background-color: blue; */
-    }
-}
+    /* } */
+/* } */
 
 @media(max-width:500px){
     .content{
@@ -275,7 +275,7 @@ h2>span{
         padding-bottom: 0;
     }
 }
-@media screen and (min-width:800px) {
+/* @media screen and (min-width:800px) {
     .content{
         padding-bottom: 15%;
     }
@@ -290,7 +290,7 @@ h2>span{
         padding-bottom: 4%;
         margin-bottom: 3em;
     }
-}
+} */
  .carrd{
     margin: 0 auto;
     padding: 0%;
@@ -553,5 +553,27 @@ a{
 @media screen and (min-width:900px) {
     .rent{
         font-size: 1.5em;
+    }
+}
+@media screen and (max-width:400px) {
+    .bottom{
+        margin-top: 30em;
+        padding: 0;
+    }
+    .mycontent{
+        padding: 0;
+        margin-bottom: 0em;
+        /* background-color: red; */
+    }
+}
+@media screen and (max-width:800px) {
+    .bottom{
+        margin-top: 8em;
+        padding: 0;
+    }
+    .mycontent{
+        padding: 0;
+        margin-bottom: 0em;
+        /* background-color: red; */
     }
 }
