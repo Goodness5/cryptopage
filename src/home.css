@@ -12,7 +12,7 @@
     flex-direction: row;
     justify-content: space-around;
     /* background-color: blue; */
-    font-size: 1.5em;
+    font-size: 1em;
     width: 80%;
     margin: 0 auto;
 }
@@ -30,6 +30,28 @@
     margin-left: 3%;
     color: black;
 }
+.connectwallet{
+    background-color: #B840AE;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.listnav>a>p{
+    color: black;
+}
+.listnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1em;
+    color: black;
+    margin: 0 auto;
+    /* background-color: red; */
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .nav>p{
     margin-top: 0;
 }
@@ -38,6 +60,7 @@
     flex-direction: row;
     /* background-color: yellow; */
     /* width: 30%; */
+    margin-top: 2%;
 
 }
 .nav>img{
@@ -61,20 +84,13 @@
     float: left;
     margin-left: 0;
 }
-.navigation>button{
-    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
-    border-radius: 10px;
-    color: white;
-    padding: 1em;
-    border: none;
-}
 .search>button[type]{
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     border-color: #A02279;
     border-radius:0px 5px 5px 0px;
     width: 30%;
     color: white;
-    padding: 0.7em;
+    padding: 0.2em;
     position: relative;
 }
 .search{
@@ -359,6 +375,7 @@ h2>span{
     font-size: 1em;
     font-family: monospace;
     /* height: 30vh; */
+    margin-left: 2%;
     flex-direction: column;
     width: 100%;
     justify-content: space-around;
@@ -423,14 +440,21 @@ a{
 @media screen and (max-width:600px) {
     .footer{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 2%;
     }
     .first{ 
-        margin: 0 auto;
+        /* margin: 0 auto; */
         font-size: 1em;
-        width: 100%;
+        width: 30%;
+        /* background-color: red; */
 
+    }
+    .first>img{
+        margin-bottom: 20%;
+    }
+    .first>p{
+        margin-top: 12%;
     }
     .second{
         /* background-color: pink; */
@@ -440,7 +464,7 @@ a{
         font-size: 1em;
         width: 100%;
         padding: 0;
-        margin-left: 21.5%;
+        /* margin-left: 21.5%; */
 
     }
     .third{
@@ -458,7 +482,7 @@ a{
         font-size: 1em;
         /* padding-left: 30%; */
         width: 100%;
-        margin-left: 21.5%;
+        /* margin-left: 21.5%; */
         /* background-color: purple; */
 
     }
@@ -466,14 +490,14 @@ a{
         /* background-color: red; */
         width: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
     .two{
         /* background-color: blue; */
         width: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
     }
 }
@@ -486,30 +510,48 @@ a{
         /* text-align: left; */
         /* justify-content: left; */
     }
-    .navigation{
-        display: flex;
-        flex-direction: column;
-    }
 }
 
-@media screen and (max-width:520px) {
-    .navigation>button{
-        /* border: solid black; */
-        padding: 1em;
-
-    }
-    .navigation{
-      
-        /* width: 30%; */
-        /* margin: 0 auto; */
-    }
-    .navigation>a>li{
+@media screen and (max-width:600px) {
+   
+    .navigation>a{
         font-size: 1em;
         float: right;
         /* color: red; */
+        margin-left: 0;
         margin-bottom: 1%;
         text-align: left;
         justify-content: left;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
     }
-   
+    .connectwallet{
+        padding: 1em;
+        /* background-color: red; */
+    }
+   .listnav{
+    /* background-color: blue; */
+    flex-direction: row;
+    margin-top: 5%;
+    float: left;
+    margin-left: 0%;
+    width: 100%;
+
+   }
+   .navigation{
+       display: flex;
+        flex-direction: column;
+        /* background-color: purple; */
+   }
+}
+@media screen and (max-width:350px) {
+    .listnav{
+        flex-direction:column;
+    }
+}
+@media screen and (min-width:900px) {
+    .rent{
+        font-size: 1.5em;
+    }
 }

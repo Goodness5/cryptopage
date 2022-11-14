@@ -26,10 +26,11 @@ function Home() {
         <div className="container">
         <div className='navigation'>
             <div className='nav'><img src={frame} alt='#' /><p>Metabnb</p></div>
+            <div className='listnav'>
             <a href="/"><p>Home</p></a>
-            <a href="/"><p>Place to stay</p></a>
+            <a href="/placetostay"><p>Place to stay</p></a>
             <a href="/"><p>NFTs</p></a>
-            <a href="/"><p>Community</p></a>
+            <a href="/"><p>Community</p></a></div>
             <button className='connectwallet'> Connectwallet </button>
             
 
