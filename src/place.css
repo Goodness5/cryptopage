@@ -245,7 +245,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     row-gap: 2%;
-    column-gap: 4%;
+    column-gap: 2%;
     margin-bottom: 15%;
     margin-top: 0%;
     /* background-color: red; */
@@ -304,7 +304,7 @@
         /* background-color: red; */
         margin-bottom: 0;
         bottom: 0;
-        margin-top: 140em !important;
+        margin-top: 115em !important;
         /* margin: 0 auto; */
     }
     .mycontent{
