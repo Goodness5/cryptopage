@@ -565,11 +565,6 @@ a{
     }
 }
 @media screen and (max-width:400px) {
-    .bottom{
-        /* margin-top: em; */
-        /* padding: 0; */
-        /* background-color: red; */
-    }
     .omo{
         /* background-color: red; */
         margin-bottom: 34em !important;
