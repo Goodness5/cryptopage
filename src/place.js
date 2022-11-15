@@ -86,7 +86,7 @@ function Place(){
             <div className='mycontent'>    
                 <div className="card">
             <img src={img2} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -99,7 +99,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img1} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -112,7 +112,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img9} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -125,7 +125,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img11} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -138,7 +138,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img10} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -151,7 +151,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img4} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -164,7 +164,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img3} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -177,7 +177,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img12} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -190,7 +190,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img6} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -203,7 +203,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img8} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -216,7 +216,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img13} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -229,7 +229,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img14} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -242,7 +242,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img15} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -255,7 +255,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img16} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -268,7 +268,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img5} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>
@@ -281,7 +281,7 @@ function Place(){
         </div>
         <div className="card">
             <img src={img7} alt=""/>
-            <div className="words"><p>Desert king</p> <p>1Mbt per night</p></div>
+            <div className="words"><p>Desert king</p> <p className='mbt'> 1Mbt per night</p></div>
             <div className="ndword"><p>2345km away</p><p className='available'> Available for 2weeks stay</p></div>
             <div className="star">
                 <img src={star} alt=""/>

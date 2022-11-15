@@ -320,6 +320,9 @@
     }
    
 }
+.mbt{
+    text-align: right;
+}
 
 @media screen and (max-width:1200px){
     .footer{
