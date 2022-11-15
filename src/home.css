@@ -27,8 +27,10 @@
 .navigation>a{
     list-style: none;
     text-decoration: none;
-    margin-left: 3%;
+    margin: 3%;
     color: black;
+    text-align: center;
+    background-color: red;
 }
 .connectwallet{
     background-color: #B840AE;
@@ -39,6 +41,11 @@
 }
 .listnav>a>p{
     color: black;
+    /* background-color: purple; */
+    padding: 0;
+    justify-content: space-between;
+    /* display: flex; */
+    /* margin-left: 1%; */
 }
 .listnav{
     display: flex;
@@ -47,6 +54,7 @@
     font-size: 1em;
     color: black;
     margin: 0 auto;
+    text-align: center;
     /* background-color: red; */
     width: 100%;
     margin-left: 5%;
@@ -356,7 +364,7 @@ h2>span{
         height: 6vh;
     }
 }
-.footer{
+.foote{
     background-color: black;
     justify-content: space-around;
     color: white;
@@ -438,7 +446,7 @@ a{
     width: 100%;
 }
 @media screen and (max-width:600px) {
-    .footer{
+    .foote{
         display: flex;
         flex-direction: column;
         padding: 2%;
@@ -512,7 +520,7 @@ a{
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:607px) {
    
     .navigation>a{
         font-size: 1em;
@@ -536,7 +544,8 @@ a{
     margin-top: 5%;
     float: left;
     margin-left: 0%;
-    width: 100%;
+    text-align: left;
+    /* width: 100%; */
 
    }
    .navigation{
@@ -557,23 +566,30 @@ a{
 }
 @media screen and (max-width:400px) {
     .bottom{
-        margin-top: 30em;
+        /* margin-top: em; */
+        /* padding: 0; */
+        /* background-color: red; */
+    }
+    .omo{
+        /* background-color: red; */
+        margin-bottom: 34em !important;
         padding: 0;
     }
     .mycontent{
-        padding: 0;
-        margin-bottom: 0em;
-        /* background-color: red; */
+        margin-bottom: 0em !important;
+    }
+    .foote{
+        margin-top: 0 !important;
     }
 }
 @media screen and (max-width:800px) {
     .bottom{
-        margin-top: 8em;
+        margin-top: 0em;
         padding: 0;
     }
-    .mycontent{
+    .omo{
         padding: 0;
-        margin-bottom: 0em;
+        margin-bottom: -25em;
         /* background-color: red; */
     }
 }

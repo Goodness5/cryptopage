@@ -99,7 +99,7 @@ function Home() {
             
             <div className='heading'><h1>Inspiration for your next adventure</h1></div>
         
-
+<div className='omo'>
             <div className='mycontent'>
                 
                 <div className="card">
@@ -223,7 +223,7 @@ function Home() {
             </div>
         </div>
                 
-                
+        </div>
             </div>
         
             
@@ -243,7 +243,7 @@ function Home() {
                     <img src={img3} alt=''></img> */}
                 </div>
             </div>
-            <div className='footer'>
+            <div className='foote'>
             <div className='two'>
                 <div className='first'>
                     <img src={meta2} alt=''></img>
