@@ -36,6 +36,7 @@ function Home() {
         document.getElementById('wal').style.display='none'
      }
     return(
+        <div className='overall'>
         <div className="mycontainer">
         
         <div id='wal'>
@@ -228,7 +229,9 @@ function Home() {
         
             
             
-                <div className='bottom'>
+                
+            </div>
+            <div className='bottom'>
                    <div className='textb'>
                     <h1>Metabnb NFTs</h1>
                     <p>Discover our NFT gift cards collection. Loyal

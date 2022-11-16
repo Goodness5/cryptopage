@@ -10,6 +10,12 @@
     /* display: flex; */
     /* flex-direction: column; */
 }
+.overall{
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
 
 .navigation>a{
     background-color: purple;
@@ -20,9 +26,11 @@
 .mycontainer{
     margin: 0 auto;
     display: flex;
+    width: 100%;
+    /* background-color: red; */
     /* padding: 2%; */
-    margin-left: 2%;
-    margin-right: 2%;
+    /* margin-left: 2%; */
+    /* margin-right: 2%; */
     /* margin-top: 5%; */
     flex-direction: column;
 }
@@ -249,7 +257,9 @@
     column-gap: 2%;
     margin-bottom: 15%;
     margin-top: 0%;
-    /* background-color: red; */
+    width: 95%;
+    margin: 0 auto;
+    /* background-color: purple; */
     /* height: 100em; */
     /* grid-auto-columns: 12%; */
 }
@@ -325,7 +335,7 @@
     text-align: right;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1000px){
     .footer{
         /* background-color: red; */
         margin-bottom: 0;
@@ -339,6 +349,9 @@
     }
     .card>img{
         height: 60%;
+    }
+    .bottom{
+        margin-top: 30em;
     }
   
 }

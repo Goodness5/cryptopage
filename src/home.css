@@ -304,22 +304,23 @@ h2>span{
     padding: 0%;
 }  
 .bottom{
-    /* margin-top: 25%; */
+    margin-top: 4%;
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    font-family: monospace;
 }
 .textb{
     /* background-color: blue; */
     justify-content: space-around;
     text-align: left;
-    width: 40%;
+    width: 100%;
     margin-left: 7%;
     /* margin: 0 auto; */
-    font-size: 1.2em;
+    font-size: 2.1em;
     color: white;
 }
 .textb>h1{
@@ -383,14 +384,15 @@ h2>span{
     font-size: 1em;
     font-family: monospace;
     /* height: 30vh; */
+    width: 50%;
     margin-left: 2%;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     justify-content: space-around;
     /* margin: 0 auto; */
 }
 .first>p{
-    font-size: 0.9em;
+    font-size: 1.2em;
     /* background-color: black; */
     margin-top: 0;
     width: 100%;
@@ -407,7 +409,9 @@ a{
     flex-direction: row;
     /* background-color: red; */
     justify-content: space-between;
-    width: 70%;
+    width: 30%;
+    /* margin: 0 auto; */
+    float: left;
 }
 .icons>a>img{
     width: 100%;
