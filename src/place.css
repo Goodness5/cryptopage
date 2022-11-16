@@ -255,7 +255,7 @@
     grid-template-columns: repeat(4, 1fr);
     row-gap: 2%;
     column-gap: 2%;
-    margin-bottom: 15%;
+    margin-bottom: 25%;
     margin-top: 0%;
     width: 95%;
     margin: 0 auto;
@@ -335,7 +335,7 @@
     text-align: right;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1200px){
     .footer{
         /* background-color: red; */
         margin-bottom: 0;
@@ -352,6 +352,9 @@
     }
     .bottom{
         margin-top: 30em;
+    }
+    .mycontent{
+        /* margin-bottom: 200em; */
     }
   
 }
